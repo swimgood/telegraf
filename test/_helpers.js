@@ -96,6 +96,7 @@ function createBot() {
   return bot
 }
 
+
 /** @type {(n: number) => Promise<void>} */
 const sleep = (t) => new Promise((r) => setTimeout(r, t))
 
@@ -104,6 +105,7 @@ const rand = (n) => Math.ceil(Math.random() * n)
 
 /** @type {(n: number) => Promise<void>} */
 const randSleep = (n) => sleep(rand(n))
+
 
 module.exports = {
   SyncStore,
