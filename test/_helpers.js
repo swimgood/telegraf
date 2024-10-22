@@ -1,6 +1,5 @@
 // @ts-check
 
-
 const { Telegraf } = require('..')
 
 /** @type {import("../types").Message['from']} */
